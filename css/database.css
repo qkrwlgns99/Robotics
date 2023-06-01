@@ -138,3 +138,43 @@
 	margin-left:0;
 }
 
+
+@media (min-width:760px) and (max-width:1100px){
+
+	.aside{
+		background-color:#fff;
+		border:1px solid #d9d9d9;
+		width:220px;
+		min-height:50rem;
+		margin-bottom:0;
+		box-sizing: inherit;
+		float:left;
+	}
+
+	.aside-head{		
+		padding:2rem;
+	}
+
+	.aside-menu-title{
+		font-size:20px;
+		line-height:1;
+		font-weight:700;
+	}
+
+	.category-menus a:hover{
+		color:var(--cauBlue);
+	}
+
+	.society-content{
+		border-left:0;
+		margin-left:220px;
+		background-color:#fff;
+		border:1px solid #d9d9d9;
+		padding:4.5rem 2.5rem;
+	}
+	
+	.content-list-item{
+		width:31%;
+	}
+
+}

@@ -117,3 +117,35 @@
 	line-height: 1.5;
 	padding-bottom:0;
 }
+
+@media (min-width:760px) and (max-width:1100px){
+
+
+	.aside{
+		width:220px;
+		min-height:50rem;
+		margin-bottom:0;
+		box-sizing: inherit;
+		float:left;
+	}
+	.aside-head{
+
+		margin:-1px -1px 0 -1px;
+		padding:2rem 1rem;
+		text-align: center;
+	}
+
+	.society-content{
+		padding:1.5rem;
+		margin-left:220px;
+	}
+	
+	.category-menus a{
+		margin-left:0;
+	}
+
+	.mainContent h8{
+		display: none;
+	}
+	
+}

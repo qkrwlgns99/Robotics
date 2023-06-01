@@ -1,5 +1,5 @@
 .post-slider{
-	width:70%;
+	width:80%;
 	margin:0px auto;
 	position:relative;
   }
@@ -71,4 +71,22 @@
 	margin-top:7px;
 	margin-left:5px;
 	font-size:small;
+  }
+
+  @media (min-width:760px) and (max-width:1100px){
+
+	.bookPublish, .bookPuslisher{
+		display: none;
+	}
+	.post-slider{
+		width:90%;
+		margin:0px auto;
+		position:relative;
+	}
+
+	  .bookName{
+		color:var(--mainBlue);
+		margin-top:15px;
+		margin-bottom:3px;
+	  }
   }

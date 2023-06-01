@@ -62,6 +62,7 @@
 	position: absolute;
 	overflow: hidden;
 }
+
 .ted-content{
 	width:32%;
 	padding-top:25px;
@@ -76,7 +77,6 @@
 
 .ted-content p{
 	font-size:0.9em;
-	
 }
 
 .pond5-content{
@@ -128,4 +128,95 @@
 .p1:hover{
 	color:var(--cauBlue);
 	font-weight: 1000;
+}
+
+
+@media (min-width:760px) and (max-width:1100px){
+
+	.aside{
+		display: none;
+	}
+
+	
+	.video-content{
+
+		margin-left:10px;
+		padding:2rem;
+		height:1300px;
+	}
+
+	.video-text{
+		display: none;
+	}
+
+	.video-container{
+
+		margin-left:30px;
+	}
+
+	.video-name{
+
+		margin-left:30px;
+	}
+
+	.ted-columns{
+		position:inherit;
+		overflow:hidden;
+		margin:0;
+		padding:0;
+	}
+	
+	.ted-content{
+		width:30%;
+	}
+	
+	.ted-content img{
+		width:200px;
+		height:120px;
+	}
+
+	.pond5-content{
+		top:50px;
+		left:20px;
+	}
+	
+	.pond5-text{
+		width:60%;
+		height:200px;
+	}
+	
+	.pond5-content img{
+		padding-top:50px;
+		margin-right:50px;
+		width:200px;
+		height:140px;
+	}
+	
+	.pond5-content .p1{
+	
+		font-weight: 600;
+		font-size:1.6em;
+		padding-bottom:20px;
+	}
+	
+	
+	.pond5-content .p2{
+	
+		font-size:1.1em;
+		line-height: 1.7;
+	}
+
+	.video-link{
+		padding-right:30px;
+	}
+	
+	.video-link .p1{
+		padding-bottom:7px;
+	}
+	
+	.p1:hover{
+		color:var(--cauBlue);
+		font-weight: 800;
+	}
+	
 }
