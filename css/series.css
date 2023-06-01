@@ -1,0 +1,179 @@
+.contentWrap{
+	
+	position:relative;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	max-width:118rem;
+	padding-left:1rem;
+	padding-right:1rem;
+}
+
+
+.aside{
+	background-color:#fff;
+	border:1px solid #d9d9d9;
+	width:249px;
+	min-height:50rem;
+	margin-bottom:0;
+	box-sizing: inherit;
+	float:left;
+}
+
+.aside-head{
+	background-color:#f0f0f0;
+	border:1px solid #d9d9d9;
+	margin:-1px -1px 0 -1px;
+	padding:2rem;
+}
+
+.aside-menu-title{
+	font-size:25px;
+	line-height:1;
+	font-weight:600;	
+}
+
+.category-menus{
+	background-color:#fff;
+	border-left:1px solid #d9d9d9;
+	border-right:1px solid #d9d9d9;
+	margin:0 -1px;
+}
+
+.category-menus li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	box-sizing: inherit;
+	border-bottom:1px solid #d9d9d9;
+}
+
+.category-menus a{
+	font-size:1.2rem;
+	font-weight:700;
+	color:#666;
+	display:block;
+	width:100%;
+	padding:0.85rem;
+	margin-left:20px;
+}
+
+.category-menus a:hover{
+	color:var(--cauBlue);
+}
+
+
+.society-content{
+	border-left:0;
+	margin-left:250px;
+	background-color:#fff;
+	border:1px solid #d9d9d9;
+	padding:4.5rem 2.5rem;
+}
+
+.society-heading{
+	min-height:2.6rem;
+	margin-bottom:2.5rem;
+}
+
+.section-title{
+	font-size:1.8rem;
+	line-height:1.2;
+	font-weight:400;
+	color:black;
+}
+
+.titleSection{
+	padding-top:80px;
+}
+
+.section{
+	height:500px;
+	margin-bottom:70px;
+}
+
+
+.content-list-item{
+	height:210px;
+	list-style: none;
+	padding:1rem;
+	border: 1px solid #d9d9d9;
+	width:32%;
+	margin-right:10px;
+	margin-bottom:20px;
+}
+
+.content-list-item .image{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 10rem;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-size: 1.4rem;
+	line-height:1.8;
+	font-weight:400;
+}
+
+.blankcontent{
+	border:1px solid white;
+}
+
+.series_name{
+	color:var(--cauBlue);
+	font-size: 1em;
+	padding-top:20px;
+}
+
+.content-list-item .description{
+	font-size: 1.2rem;
+	line-height:1.4;
+	text-align: center;
+	font-weight:400;
+}
+
+.columns{
+	float:left;
+	/* box-sizing: inherit; */
+}
+
+.columns:first-child{
+	margin-left:0;
+}
+
+table, tr{
+	border:1px solid #d9d9d9;
+	margin:10px;
+	margin-top:30px;
+}
+
+th{
+	background-color: #999;
+	color:#f0f0f0;
+	width:250px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+td{
+	padding-left:20px;
+	width:700px;
+}
+
+.homepage{
+	color:dodgerblue;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.main-content{
+	padding:15px;
+	font-size: 1.2em;
+	line-height:2;
+}

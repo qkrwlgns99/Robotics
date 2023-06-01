@@ -1,0 +1,46 @@
+footer{
+	width: 100%;
+	height: 160px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+img{
+	width: 150px;
+	margin-bottom: 15px;
+}
+.footText{
+	text-align: center;
+	font-size: 14px;
+}
+.footText address{
+	font-size: 9px;
+}
+
+/* pc size */
+@media (min-width: 1330px) {
+footer{
+	width: 1330px;
+	height: 110px;
+
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+}
+img{
+	width: 200px;
+	margin-bottom: 0;
+}
+.blank{
+	flex-grow: 1;
+}
+.footText{
+	text-align: right;
+}
+.footText address{
+	font-size: 12px;
+}
+}
